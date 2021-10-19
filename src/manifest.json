@@ -1,0 +1,17 @@
+{
+  "name": "stop pull request label",
+  "description": "hidden merge button when specific label attached",
+  "version": "1.0",
+  "manifest_version": 3,
+  "permissions": ["activeTab", "scripting"],
+  "content_scripts": [
+    {
+      "matches": ["https://github.com/*"],
+      "js": ["content-script.js"],
+      "css": ["style.css"]
+    }
+  ],
+  "icons": {
+    "48": "/images/icon48.png"
+  }
+}

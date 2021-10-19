@@ -1,0 +1,13 @@
+{
+  "jsc": {
+    "parser": {
+      "syntax": "ecmascript"
+    }
+  },
+  "module": {
+    "type": "es6"
+  },
+  "env": {
+    "coreJs": 3
+  }
+}

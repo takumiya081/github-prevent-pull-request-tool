@@ -1,0 +1,25 @@
+{
+  "name": "github-prevent-label-merge",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "lint": "eslint src/**/*.js",
+    "lint:fix": "eslint src/**/*.js --fix && prettier **/*.js --write",
+    "build": "rimraf dist && spack && cpx \"src/**/*.{json,css,png}\" dist"
+  },
+  "devDependencies": {
+    "@swc/cli": "^0.1.51",
+    "@swc/core": "^1.2.100",
+    "browserslist": "^4.17.4",
+    "cpx": "^1.5.0",
+    "eslint": "^8.0.1",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-import": "^2.25.2",
+    "prettier": "^2.4.1",
+    "rimraf": "^3.0.2"
+  },
+  "dependencies": {}
+}
