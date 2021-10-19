@@ -3,7 +3,7 @@
   "description": "hidden merge button when specific label attached",
   "version": "1.0",
   "manifest_version": 3,
-  "permissions": ["activeTab", "scripting"],
+  "permissions": ["scripting"],
   "content_scripts": [
     {
       "matches": ["https://github.com/*"],
