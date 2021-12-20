@@ -21,7 +21,7 @@ function mergeButtonControl() {
     return;
   }
   const preventLabelDom = getPreventLabel();
-  const mergeBoxDom = mergeButtonContainer.querySelector('.js-merge-box');
+  const mergeBoxDom = mergeButtonContainer.querySelector('.select-menu');
 
   if (!preventLabelDom) {
     mergeBoxDom.classList.remove('github-prevent-label-merge-hidden');
